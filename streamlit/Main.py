@@ -9,7 +9,7 @@ from fastai.vision import load_learner, open_image
 from PIL import Image
 
 # Load the trained model
-model_path = Path('../data/pickles/')
+model_path = Path(__file__).parents[0] / 'data/pickles'
 model_filename = 'trained_model.pkl'
 model = load_learner(model_path, model_filename)
 
