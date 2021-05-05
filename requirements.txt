@@ -1,7 +1,7 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 
-pillow=8.2.0        #=py37h5270095_0
-streamlit=0.81.0    #=pyhd8ed1ab_0
-pathlib=1.0.1       #=py37hf985489_4
-fastai=1.0.61=1
+pillow==8.2.0        #=py37h5270095_0
+streamlit==0.81.0    #=pyhd8ed1ab_0
+pathlib==1.0.1       #=py37hf985489_4
+fastai==1.0.61       #=1
